@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #f2f2f2;
+        }
+    
+        .container {
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 20px;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        h2 {
+          text-align: center;
+          margin-top: 0;
+        }
+    
+        .form-group {
+          margin-bottom: 20px;
+        }
+    
+        .form-group label {
+          display: block;
+          margin-bottom: 5px;
+          font-weight: bold;
+        }
+    
+        .form-group input[type="submit"] {
+          background-color: #4CAF50;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+    
+        .form-group input[type="submit"]:hover {
+          background-color: #45a049;
+        }
+        </style>
+</head>
+<body>
+    <h2>Login</h2>
+<!-- <form method="POST" enctype="multipart/form-data">
+    <input type="text" name="username" placeholder="Username" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <input type="submit" value="Login">
+</form> -->
+
+<!-- <form method="POST" enctype="multipart/form-data">
+    <input type="text" name="username" placeholder="Username" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <input type="file" name="image"><br>
+    <input type="submit" value="Login" name="smit">
+</form> -->
+
+<!-- <form action="/login" method="post" enctype="multipart/form-data">
+    Other form fields 
+    <input type="button" value="Capture Image" name="ci">
+    <input type="file" name="image" accept="image/*" capture="camera">
+    <h2>********Press 's' to capture image********</h2>
+    <input type="submit" name="ci" value="Capture Your Image">
+</form> -->
+
+<div class="container">
+    <form action="/login" method="post" enctype="multipart/form-data">
+      <h2>Press 's' to capture image</h2>
+      <center>
+      <div class="form-group">
+        <input type="submit" name="ci" value="Capture Your Image">
+      </div>
+    </center>
+    </form>
+  </div>
+
+</body>
+</html>
