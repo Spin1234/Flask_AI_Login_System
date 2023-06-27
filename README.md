@@ -52,7 +52,5 @@ This is a Python code for a face recognition login application using Flask. Let'
    - This route is a placeholder for a protected page that requires authentication.
 
 8. Running the Flask App:
-   - The `if __name__ == '__main__'` block ensures that the
-
- app is only run if the script is executed directly.
+   - The `if __name__ == '__main__'` block ensures that the app is only run if the script is executed directly.
    - It starts the Flask development server using `app.run(debug=True)`.
