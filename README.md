@@ -1,6 +1,6 @@
 ﻿# Flask_AI_Login_System
 
-This is a Python code for a face recognition application using Flask. Let's go through the code and understand its different components.
+This is a Python code for a face recognition login application using Flask. Let's go through the code and understand its different components.
 
 1. Importing Libraries:
    - The code begins by importing the necessary libraries/modules:
@@ -56,7 +56,3 @@ This is a Python code for a face recognition application using Flask. Let's go t
 
  app is only run if the script is executed directly.
    - It starts the Flask development server using `app.run(debug=True)`.
-
-Remember, this code snippet represents only a part of the overall application. To fully understand and utilize this code, you should have a basic understanding of Python, Flask, OpenCV, face recognition algorithms, and working with databases using SQLAlchemy.
-
-It's worth noting that code comprehension is just one aspect of preparing for a job interview. Make sure to have a solid understanding of the concepts behind the code and be prepared to explain your role and contributions to the project. Good luck with your job interview!
